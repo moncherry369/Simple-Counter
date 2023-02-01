@@ -1,12 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(55, 224, 168), rgba(45, 75, 67, 0.763));
+    padding: 5px;
+}
 
-/* 
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(57, 182, 130, 0.563);
+    color: white;
+    height: 90px;
+    width: 75px;
+    max-width: 75px;
+    border: 3px solid rgb(75, 72, 72);
+    border-radius: 15px;
+    margin: 0 5px;
+}
 
-    You can write your own styles here...
+.clock {
+    font-size: 50px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.input {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+.buttons {
+    height: 50px;
+    width: 120px;
+    max-width: 120px;
+    border: 3px groove rgb(134, 134, 134);
+    border-radius: 8px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.buttons:first-child {
+    background-color: rgba(214, 23, 23, 0.8);
+}
+
+.buttons:nth-of-type(2) {
+    background-color: rgba(214, 163, 23, 0.8);
+}
+
+.buttons:last-child {
+    background-color: rgba(23, 214, 80, 0.8);
+}
