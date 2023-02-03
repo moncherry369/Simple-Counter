@@ -21,7 +21,7 @@ const handleTimer = () => {
             if (!countDown) {
                 setCounter((prevCounter) => prevCounter + 1);
                 setCounterStr(counter.toString().padStart(6, "0"));
-            }
+            }//CountDown does not work in negatives... Try to limit to no negatives//
             else if (countDown) {
                 setCountDown(countDown - 1);
                 setCounter((countDown) => countDown - 1);
